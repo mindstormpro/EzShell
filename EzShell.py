@@ -13,8 +13,8 @@ def get_idle_ms():
     user32.GetLastInputInfo(ctypes.byref(lii))
     return kernel32.GetTickCount64() - lii.dwTime
 
-API_URL = 'https://mindstormpro3.pythonanywhere.com/'
-KEY = '82!jc6#a1HKLjg2b$ujOw72Bks2j8ca0"' 
+API_URL = ''
+KEY = '' 
 
 def get():
     try:
